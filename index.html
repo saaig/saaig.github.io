@@ -1,0 +1,59 @@
+<!DOCTYPE html> 
+<html>
+<head>
+    <link href="c9comeback.css" rel="stylesheet"/> 
+    <meta charset="utf-8"/>
+    <title>When did C9 last come back?</title>
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,700|Tinos:400,700' rel='stylesheet' type='text/css'>
+        <script id="countup" type="text/javascript">
+        window.onload=  function(){upTime('jul,27,2015,22:00:00');} // Month,Day,Year,Hour,Minute,Second 
+                        function upTime(countTo){
+                                                  now = new Date();
+                                                  countTo = new Date(countTo);
+                                                  difference = (now-countTo);
+                                                
+                                                  days=Math.floor(difference/(60*60*1000*24)*1);
+                                                  hours=Math.floor((difference%(60*60*1000*24))/(60*60*1000)*1);
+                                                  mins=Math.floor(((difference%(60*60*1000*24))%(60*60*1000))/(60*1000)*1);
+                                                  secs=Math.floor((((difference%(60*60*1000*24))%(60*60*1000))%(60*1000))/1000*1);
+
+                                                  document.getElementById('days').firstChild.nodeValue = days;
+                                                  document.getElementById('hours').firstChild.nodeValue = hours;
+                                                  document.getElementById('minutes').firstChild.nodeValue = mins;
+                                                  document.getElementById('seconds').firstChild.nodeValue = secs;
+
+                                                  clearTimeout(upTime.to);
+                                                  upTime.to=setTimeout(function(){ upTime(countTo); },1000);
+                                                }
+        </script>
+</head>
+    
+    
+    
+<body>
+    
+    <div id="logo">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/f/f3/Cloud9_Logo.jpg"/>
+    </div>
+    <div id="content">
+        <div id="headline"><h1>When did C9 last pull off a ridiculous comeback?</h1></div>
+        <div id="count">
+                        <p>It's been:</p>
+                        <p id="days">00</p><p class="daysref">Days</p>
+                        <p id="hours">00</p><p class="hoursref">Hours</p>
+                        <p id="minutes">00</p><p class="minutesref">Minutes</p>
+                        <p id="seconds">00</p><p class="secondsref">Seconds</p>    
+        </div>
+        <div id="event">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/3qpRx98utw4" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </div>
+    <div id="footer">
+        <p>Logo courtesy of Cloud9 - Inspired by <a href="https://www.allthefoxes.me/eg/">Dieback</a></p>     
+    </div>
+
+</body>
+    
+    
+    
+</html>
