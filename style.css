@@ -1,10 +1,10 @@
 body {
     font-family: Tinos;
     font-weight: 400;
+    display: block;
+    margin: 0 auto;
 }
 
 content {
-    position: absolute;
-    display: block;
-    margin: 0 auto;
+    
 }
