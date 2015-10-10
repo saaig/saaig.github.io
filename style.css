@@ -4,5 +4,6 @@ body {
 }
 
 content {
-    align-content: center;
+    margin: auto;
+    width: 20%;
 }
