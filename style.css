@@ -1,9 +1,8 @@
 body {
-    align-content: center;
     font-family: Tinos;
     font-weight: 400;
 }
 
-p {
-
+content {
+    align-content: center;
 }
