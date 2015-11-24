@@ -1,0 +1,94 @@
+body {
+    background-image: url(http://i.imgur.com/jZL9qPh.jpg);
+    display: block;
+    margin: 0 auto;
+}
+
+.underline{
+    background-color: #000000;
+}
+
+.active{
+    background-color: 
+}
+    
+#header {
+    height: 60px;
+    width: 100%;
+    background-color: #FFFFFF;
+    opacity: 0.8;
+}
+
+#logo {
+    float: left;
+    width: 10%;
+    height: 60px;
+}
+#header h1 {
+    float: left;
+    font-family: PT Serif Caption;
+    font-weight: 700;
+    height: auto;
+    width: auto;
+    font-size: 30px;
+    margin: 10px 0px 0px 40px;
+}
+
+#menu {
+    margin-left: 50%;
+    float: left;
+    width: 40%;
+    height: 60px;
+    background-color: #FFFFFF:
+}
+        
+        #menu button{
+            float: left;
+            width: 25%;
+            height: 60px;
+            font-family: PT Serif Caption;
+            font-weight: 700;
+            font-size: 20px; 
+            cursor: pointer;
+            background-color: #FFFFFF;
+            border: 1px solid #d4d3d3;
+            overflow: hidden;
+            
+        }
+
+        #menu :hover{
+            background-color: #f6f6f6;
+            
+        }
+
+
+#content {
+    width: auto;
+    height: auto;
+}   
+
+#introduction {
+
+        }
+
+#articles {
+    height: 800px;
+    width: 70%;   
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+}
+
+        #articles p {
+            padding-left: 40px;
+            padding-right: 40px;
+            font-family: PT Serif Caption;
+            font-weight: 700;
+            font-size: 22px;
+            color: #FFFFFF;
+            float: left;
+        }
+
+
+
+       
