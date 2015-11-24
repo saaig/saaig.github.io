@@ -1,0 +1,11 @@
+body {
+    font-family: Tinos;
+    font-weight: 400;
+}
+
+body content {
+    display: block;
+    margin: 0 auto;
+    width: auto;
+}
+
